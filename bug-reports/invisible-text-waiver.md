@@ -43,6 +43,13 @@ Medium
 
 Reason: Users cannot read the waiver agreement unless they manually highlight the text.
 
-screenshots
-    ├── waiver-text-invisible.png
+## Attachments
+
+### Text not visible when modal opens
+
+![Invisible text](../screenshots/waiver-text-invisible.png)
+
+### Text visible after highlighting
+
+![Highlighted text](../screenshots/waiver-text-selected.png)
     └── waiver-text-selected.png
