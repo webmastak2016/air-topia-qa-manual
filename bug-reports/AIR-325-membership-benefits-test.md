@@ -40,3 +40,29 @@ Membership benefits were applied correctly and **no multiple benefits were stack
 ## Test Evidence
 
 ![Test Screenshot](../screenshots/AIR-325-membership-benefits-test.png)
+
+---
+
+## Bug Details
+
+**Status:** Not Reproduced  
+**Severity:** Medium  
+**Priority:** Low  
+
+---
+
+## Notes / Risks
+
+- Additional validation is recommended for edge cases:
+  - Multiple percentage-based benefits
+  - Percentage vs fixed discount
+  - Equal discount values across benefits
+- Potential risk of incorrect discount calculation if stacking logic is not properly restricted
+
+---
+
+## Related Test Cases
+
+- TC_POS_MEMBERSHIP_001 — Verify single benefit per item
+- TC_POS_MEMBERSHIP_002 — Validate maximum discount selection
+- TC_POS_MEMBERSHIP_003 — Verify no benefits applied without membership
